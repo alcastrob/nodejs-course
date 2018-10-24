@@ -10,10 +10,11 @@
             "name": "Iniciar programa",
             "program": "${workspaceFolder}/notes-node/app.js",
             "args": [
-                "add",
-                "--title='to buy 4'",
-                "--body='food'"
-            ]
+                "read",
+                "--title=to buy 2"
+                // "--body='food'"
+            ],
+            "cwd": "${workspaceFolder}/notes-node/"
         }
     ]
 }
